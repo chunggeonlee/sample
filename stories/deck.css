@@ -1,0 +1,20 @@
+
+/* div{
+    font-family: 'Crimson Text', serif;
+    font-variant-numeric:tabular-nums;
+    font-feature-settings:"tnum"
+    
+} */
+#roboto{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#raleway{
+    font-family: 'Raleway', humanist;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+}
+
+#spacemono{
+    font-family: 'Space Mono', monospace;
+}

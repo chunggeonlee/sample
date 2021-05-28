@@ -1,0 +1,66 @@
+{
+  "name": "press",
+  "version": "1.0.0",
+  "description": "web front end bundle",
+  "main": "stage.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --compilers js:babel-core/register --reporter spec",
+    "storybook": "start-storybook -s . -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/buy-signal/press.git"
+  },
+  "author": "Buy Signal Limited",
+  "license": "SEE LICENSE IN license",
+  "bugs": {
+    "url": "https://github.com/buy-signal/press/issues"
+  },
+  "homepage": "https://github.com/buy-signal/press#readme",
+  "dependencies": {
+    "@storybook/cli": "^5.0.0",
+    "core-js": "^2.6.5",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "@babel/preset-stage-0": "^7.0.0",
+    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-links": "^5.0.0",
+    "@storybook/addons": "^5.0.0",
+    "@storybook/react": "^5.0.0",
+    "babel": "6.23.0",
+    "babel-core": "6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "8.0.0",
+    "browserify": "16.2.3",
+    "browserify-shim": "3.8.14",
+    "chai": "4.1.2",
+    "express": "4.16.2",
+    "gsap": "2.1.2",
+    "gulp": "4.0.0",
+    "gulp-babel": "7.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-sourcemaps": "2.6.5",
+    "jquery": "3.2.1",
+    "jsdom": "11.5.1",
+    "mocha": "4.1.0",
+    "pako": "1.0.10",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "request": "2.88.0",
+    "velocity-animate": "1.5.0",
+    "velocity-react": "1.4.1",
+    "video-react": "0.14.0",
+    "vinyl-buffer": "1.0.1",
+    "vinyl-source-stream": "2.0.0"
+  }
+}

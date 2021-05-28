@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'GothamBook';
+    src: 
+        url('GothamBook.eot') format('embedded-opentype'),
+        url('GothamBook.ttf') format('truetype'),
+        url('GothamBook.svg') format('svg'),
+        url('GothamBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: 
+        url('GothamBold.eot') format('embedded-opentype'),
+        url('GothamBold.ttf') format('truetype'),
+        url('GothamBold.svg') format('svg'),
+        url('GothamBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: 
+        url('GothamMedium.eot') format('embedded-opentype'),
+        url('GothamMedium.ttf') format('truetype'),
+        url('GothamMedium.svg') format('svg'),
+        url('GothamMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamLight';
+    src: 
+        url('GothamLight.eot') format('embedded-opentype'),
+        url('GothamLight.ttf') format('truetype'),
+        url('GothamLight.svg') format('svg'),
+        url('GothamLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamThin';
+    src: 
+        url('GothamThin.eot') format('embedded-opentype'),
+        url('GothamThin.ttf') format('truetype'),
+        url('GothamThin.svg') format('svg'),
+        url('GothamThin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '1942Record';
+    src: url('1942Record.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FFTrixie';
+    src: url('FFTrixie.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpecialEliteRegular';
+    src: url('SpecialEliteRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TypicalWriter';
+    src: url('TypicalWriter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-transform: transformZ( 0 );
+       -moz-transform: transformZ( 0 );
+        -ms-transform: transformZ( 0 );
+            transform: transformZ( 0 );
+}
+
+body * {
+    -webkit-tap-highlight-color: rgba( 0, 0, 0, 0 );
+       -moz-tap-highlight-color: rgba( 0, 0, 0, 0 );
+            tap-highlight-color: rgba( 0, 0, 0, 0 );
+}
+
+input, textarea, select, button {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+:invalid {
+    box-shadow: none;
+}
+
+svg {
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+}
